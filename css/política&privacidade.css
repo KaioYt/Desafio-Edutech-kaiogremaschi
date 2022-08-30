@@ -1,0 +1,37 @@
+body{
+    font-family: poppinsMedium;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.politica{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;
+}
+
+a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s;
+}
+
+#botao{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#botao:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5;
+}

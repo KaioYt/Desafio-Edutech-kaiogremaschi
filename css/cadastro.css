@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: poppinsBold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 8px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+#buton{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#buton:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+#is{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#is:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+#ul{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#ul:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200;
+    font-family: poppinsMedium;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsMedium;
+    padding-left: 40px;
+}
+
+span{
+    color: blueviolet;
+    font-size: 100px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: poppinsLight;
+    padding-left: 40px;
+}
+
+img{
+    width: 420px;
+    padding-left: 150px;
+    pointer-events: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 40px;
+}
+
+form [type="submit"]{
+    height: 45px;
+    width: 30%;
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(93, 21, 160);
+    color: white;
+    transition: 0.5;
+}
+
+input{
+    margin-top: 10px;
+    height: 12px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+footer{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 10px;
+    font-family: poppinsLight;
+}

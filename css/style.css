@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: poppinsBold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#title{
+    font-size: 8px;
+    font-family: poppinsBold;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+#is{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#is:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s;
+}
+
+#ul{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#buton{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#buton:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+
+#ul:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200;
+    font-family: poppinsMedium;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}   
+
+h2{
+    font-size: 56px;
+    line-height: 20px;
+    font-family: poppinsExtraBold;
+}
+
+span{
+    color: blueviolet;
+}
+
+p{
+    line-height: 25px;
+    max-width: 800px;
+    font-family: poppinsLight;
+
+}
+
+img{
+    width: 410px;
+    pointer-events: none;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: poppinsLight;
+}

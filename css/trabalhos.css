@@ -1,0 +1,127 @@
+body{
+    background: rgb(29, 29, 29);
+    color: white;
+    font-family: poppinsMedium;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header{
+    background-color: rgb(20, 20, 20);
+    margin-left: -75px;
+    margin-right: -75px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    font-size: 8px;
+    font-family: poppinsBold;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+a{
+    color: white;
+}
+ a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+ }
+
+
+
+h1{
+    font-weight: 200;
+    font-family: poppinsMedium;
+    font-size: 20px;
+    padding-left: 210px;
+
+}
+
+ul{
+    margin-right: 180px;
+}
+
+article{
+    margin-top: 120px;
+    margin-left: 140px;
+ }
+
+
+#Neymar{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#Fitness{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#Apple{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#Jesus2{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#Jesus{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#hamburgue{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#MI11{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#pizza{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#aguia{
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+}
+
+#NICE{
+    width: 910px;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-family: poppinsLight;
+}
+
+

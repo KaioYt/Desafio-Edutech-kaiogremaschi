@@ -1,0 +1,30 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+        margin-top: -10px;
+        background-color: rgb(29, 29, 29);
+    }
+    #title{
+        text-align: center;
+        margin-left: -200px;
+        font-size: 40px;
+    }
+    ul{
+        margin-right: 180px;
+    }
+    article{
+        margin-left: 50px;
+     }
+    #ul{
+        margin-left: 175px;
+    }
+    #is{
+        margin-left: 170px;
+    }
+    #buton{
+        margin-left: 175px;
+    }
+    #NICE{
+        width: 300px;
+    }        
+}
